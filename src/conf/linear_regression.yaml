@@ -1,3 +1,4 @@
+#main linear regression task configuration file
 inherit: 
     - base.yaml
 
@@ -10,7 +11,7 @@ training:
             inc: 2
             interval: 2000
 
-out_dir: ../models/linear_regression
+out_dir: ../models/linear_regression #where to save the model
 
 wandb:
     entity: "sultan_daniels"
